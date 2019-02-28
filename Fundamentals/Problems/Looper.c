@@ -5,3 +5,18 @@
     Input something: quit
 
 */
+#include <stdio.h>
+#include <strings.h>
+
+int main(int argc, char const *argv[])
+{
+    char input[50];
+
+    do
+    {
+        printf("Input something: ");
+        scanf("%49s", &input);
+    } while (strcmp(input, "quit") != 0);
+
+    return 0;
+}
