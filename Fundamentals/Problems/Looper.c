@@ -6,7 +6,7 @@
 
 */
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 
 int main(int argc, char const *argv[])
 {
